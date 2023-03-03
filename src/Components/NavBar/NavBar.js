@@ -24,19 +24,21 @@ const NavBar = () => {
 }
 
 const Nav = styled.div`
-  position: relative;
+  position: absolute;
+  z-index: 1;
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 64px;
+  height: 76px;
   background-color: #fff;
   border-bottom: #000 solid 1px;  
 `;
 
 const Logo = styled.div`
   position: relative;
-  left: 20px;
-  width: 5%;
-  height: 100%;
+  left: 3%;
+  width: 60px;
+  height: 60px;
   border: #000 solid 1px;  
 
   img{
