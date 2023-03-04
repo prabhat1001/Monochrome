@@ -1,24 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import NavBar from '../NavBar/NavBar'
-import Page1 from '../ContentPages/Page1'
-import Page2 from '../ContentPages/Page2'
 import './LandingPage.css'
 
 const LandingPage = () => {
   return (
-    <>
-    <NavBar />
     <MainPage>
       <img src='/images/building-1.jpg'></img>
       <TextBox>
       <Heading>We crush minimal design.</Heading>
       <SubHeading>MONOCHROME is a creative agency based in Chicago. We developed the Genesis Framework and build mobile-optimized themes for WordPress.</SubHeading>
       </TextBox>
-    </MainPage>
-    <Page1 />
-    <Page2 />
-    </>
+    </MainPage> 
   )
 }
 
