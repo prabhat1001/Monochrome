@@ -137,7 +137,7 @@ const Card = styled.div`
     font-family: 'Nunito', sans-serif;
     width: 30%;
     height: fit-content;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
     
     h3{
