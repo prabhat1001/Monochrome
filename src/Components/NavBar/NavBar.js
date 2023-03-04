@@ -45,7 +45,7 @@ const Logo = styled.div`
   left: 2%;
   width: 60px;
   height: 60px;
-  border: #000 solid 1px;  
+  /* border: #000 solid 1px;   */
 
   img{
     width: 100%;
