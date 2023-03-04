@@ -31,12 +31,18 @@ const Nav = styled.div`
   width: 100%;
   height: 76px;
   background-color: #fff;
-  border-bottom: #000 solid 1px;  
+  /* border-bottom: #000 solid 1px;   */
+
+  // for small screens
+  @media (min-width: 320px) and (max-width: 425px){
+    width: 100%;
+      height: 60px;
+  }
 `;
 
 const Logo = styled.div`
   position: relative;
-  left: 3%;
+  left: 2%;
   width: 60px;
   height: 60px;
   border: #000 solid 1px;  
@@ -44,6 +50,11 @@ const Logo = styled.div`
   img{
     width: 100%;
     height: 100%;
+  }
+  // for small screens
+  @media (min-width: 320px) and (max-width: 425px){
+      width: 40px;
+      height: 40px;
   }
 
 `;
@@ -57,12 +68,23 @@ const Links = styled.div`
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  border: #000 solid 1px;  
+  /* border: #000 solid 1px;   */
   a{
     color: #444444;
     text-decoration: none;
     font-size: 1rem;
     font-family: 'Nunito', sans-serif;
+    /* background-color: brown; */
+    // for small screens
+    @media (min-width: 320px) and (max-width: 425px){
+        font-size: 0.8rem;
+    }
+  }
+
+  // for small screens
+  @media (min-width: 320px) and (max-width: 425px){
+       width: 80%;
+       height: 80%;
   }
 `;
 
@@ -78,6 +100,12 @@ const Search = styled.div`
     :hover{
       cursor: pointer;
     }
+  }
+
+  // for small screens
+  @media (min-width: 320px) and (max-width: 425px){
+      width: 20px;
+      height: 20px;
   }
 
 
