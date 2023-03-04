@@ -1,4 +1,6 @@
 import React from 'react'
+
+// Components and pages imported here
 import LandingPage from './Components/LandingPage/LandingPage'
 import NavBar from './Components/NavBar/NavBar'
 import Page1 from './Components/ContentPages/Page1'
