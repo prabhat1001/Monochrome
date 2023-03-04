@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import styled from 'styled-components'
-import './NavBar.css'
+import styled from "styled-components";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -10,18 +10,18 @@ const NavBar = () => {
         <img src="/images/logo.png"></img>
       </Logo>
       <Links>
-        <a href='#'>Sample</a>
-        <a href='#'>Features</a>
-        <a href='#'>Layouts</a>
-        <a href='#'>Our Shop</a>
-        <a href='#'>Buy Theme</a>
+        <a href="#">Sample</a>
+        <a href="#">Features</a>
+        <a href="#">Layouts</a>
+        <a href="#">Our Shop</a>
+        <a href="#">Buy Theme</a>
         <Search>
-          <img src='/images/search.png'></img>
+          <img src="/images/search.png"></img>
         </Search>
       </Links>
     </Nav>
-  )
-}
+  );
+};
 
 const Nav = styled.div`
   position: absolute;
@@ -34,9 +34,9 @@ const Nav = styled.div`
   /* border-bottom: #000 solid 1px;   */
 
   // for small screens
-  @media (min-width: 320px) and (max-width: 425px){
+  @media (min-width: 320px) and (max-width: 425px) {
     width: 100%;
-      height: 60px;
+    height: 60px;
   }
 `;
 
@@ -47,16 +47,15 @@ const Logo = styled.div`
   height: 60px;
   /* border: #000 solid 1px;   */
 
-  img{
+  img {
     width: 100%;
     height: 100%;
   }
   // for small screens
-  @media (min-width: 320px) and (max-width: 425px){
-      width: 40px;
-      height: 40px;
+  @media (min-width: 320px) and (max-width: 425px) {
+    width: 40px;
+    height: 40px;
   }
-
 `;
 
 const Links = styled.div`
@@ -69,22 +68,23 @@ const Links = styled.div`
   justify-content: space-around;
   align-items: center;
   /* border: #000 solid 1px;   */
-  a{
+  a {
     color: #444444;
     text-decoration: none;
     font-size: 1rem;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
     /* background-color: brown; */
     // for small screens
-    @media (min-width: 320px) and (max-width: 425px){
-        font-size: 0.8rem;
+    @media (min-width: 320px) and (max-width: 425px) {
+      font-size: 0.8rem;
+      display: none;
     }
   }
 
   // for small screens
-  @media (min-width: 320px) and (max-width: 425px){
-       width: 80%;
-       height: 80%;
+  @media (min-width: 320px) and (max-width: 425px) {
+    width: 80%;
+    height: 80%;
   }
 `;
 
@@ -93,21 +93,21 @@ const Search = styled.div`
   width: 30px;
   height: 30px;
   /* border: #000 solid 1px; */
-  img{
+  img {
     width: 100%;
     height: 100%;
 
-    :hover{
+    :hover {
       cursor: pointer;
     }
   }
 
   // for small screens
-  @media (min-width: 320px) and (max-width: 425px){
-      width: 20px;
-      height: 20px;
+  @media (min-width: 320px) and (max-width: 425px) {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
   }
-
-
 `;
-export default NavBar
+export default NavBar;
