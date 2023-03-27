@@ -43,7 +43,7 @@ const TextBox = styled.div`
   top: 30%;
   left: 10%;
   /* transform: translate(-50%, -50%); */
-  width: 40%;
+  width: 50%;
   height: 50vh;
   /* background-color: #fff; */
 
@@ -85,7 +85,7 @@ const Heading = styled.div`
 `;
 
 const SubHeading = styled.div`
-  width: 90%;
+  width: 60%;
   height: 20%;
   /* background-color: brown; */
   font-family: "Nunito", sans-serif;

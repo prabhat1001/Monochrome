@@ -28,13 +28,13 @@ const Banner = styled.div`
 
 const TextCont = styled.div`
   /* background-color: brown; */
-  width: 42%;
+  width: 52%;
   height: 10vh;
   margin-top: 2vh;
   margin: auto auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   // for small screens
   @media (min-width: 320px) and (max-width: 425px) {
@@ -55,7 +55,7 @@ const Heading = styled.div`
 const Button = styled.div`
   background-color: #fff;
 
-  width: 100px;
+  width: 120px;
   height: 50px;
   font-family: "Bebas Neue", cursive;
   font-size: 1.2rem;

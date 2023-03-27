@@ -171,7 +171,7 @@ const Card = styled.div`
 
 const Button = styled.div`
   background-color: #000;
-  width: 40%;
+  width: 70%;
   font-family: "Bebas Neue", cursive;
   font-size: 1.2rem;
   padding: 0.6rem;
